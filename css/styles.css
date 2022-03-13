@@ -92,7 +92,7 @@ img#logo{
     position: relative;
 }
 .contactUs{
-    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     
 }
 .form-control {
