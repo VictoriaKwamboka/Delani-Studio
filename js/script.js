@@ -43,6 +43,25 @@ $(document).ready(function () {
 
 })
 
+$(document).ready(function(){
+    $('#form-submit').submit(function(){
+        let name = $('input#name').val();
+        let email = $('input#email').val();
+        let comments = $('input#comments').val();
+
+        if (name && email &&  comments) {
+            alert ("Hello " + name + " ,we have received your message. Thank you for reaching out to us.");
+        } else if(name && email){
+            alert('Please leave a comment.')
+            
+        }else if(name && comments){
+            alert('Please enter your email.')
+        }else{
+            alert('Please enter your name, email and a comment')
+        }
+    });
+});
+
 
 
 // let textHovers = ['textHover1', 'textHover2', 'textHover3', 'textHover4', 'textHover5', 'textHover6', 'textHover7', 'textHover8'];
