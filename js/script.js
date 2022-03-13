@@ -42,6 +42,9 @@ $(document).ready(function () {
     })
 
 })
+
+
+
 // let textHovers = ['textHover1', 'textHover2', 'textHover3', 'textHover4', 'textHover5', 'textHover6', 'textHover7', 'textHover8'];
 // textHovers.forEach(function (textHover) {
 //     $("#" + work).mouseover(function () {

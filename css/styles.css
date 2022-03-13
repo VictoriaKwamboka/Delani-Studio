@@ -16,7 +16,7 @@ img#logo{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#intro-heading, #about-heading, #service-heading, #portfolio-heading{
+#intro-heading, #about-heading, #service-heading, #portfolio-heading, #contact-heading{
        padding: 20px;
        font-weight: 400;
        text-align: center;
@@ -97,4 +97,8 @@ img#logo{
 }
 ::placeholder{
     color: white !important;
+}
+#button{
+    position: relative;
+    text-align: center;
 }
