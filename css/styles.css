@@ -79,7 +79,10 @@ img#logo{
     border: 3px solid white;
     left: 50%;
     top: 50%;
-    background-color: grey;
+    background-color:#ffffff;
+    opacity: 0.5;
+    color:brown;
+    font-size:x-large;
     transform: translate(-50%,-50%);
     padding-top: 30%;
     padding-left: 20%;

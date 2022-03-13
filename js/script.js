@@ -65,7 +65,6 @@ $(document).ready(function(){
             alert('Please enter your name, email and a comment')
             return false;
         }
-        
 
     });
 
