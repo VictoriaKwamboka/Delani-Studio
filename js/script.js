@@ -30,3 +30,19 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    let works = ['work1', 'work2', 'work3', 'work4', 'work5', 'work6', 'work7', 'work8'];
+    let textHovers = ['textHover1', 'textHover2', 'textHover3', 'textHover4', 'textHover5', 'textHover6', 'textHover7', 'textHover8'];
+
+    works.forEach(function (work) {
+        textHovers.forEach(function (textHover) {
+            $("#" + work).mouseover(function () {
+                $('#' + textHover).show();
+            }).mouseout(function () {
+                $('#' + textHover).hide()
+            })
+
+        })
+    })
+
+})
