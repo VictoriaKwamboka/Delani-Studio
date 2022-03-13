@@ -102,8 +102,7 @@ img#logo{
 ::placeholder{
     color: white !important;
 }
-#button{
-    position: relative;
+.button-holder{
     text-align: center;
 }
 
