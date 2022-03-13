@@ -47,19 +47,29 @@ $(document).ready(function(){
     $('#form-submit').submit(function(){
         let name = $('input#name').val();
         let email = $('input#email').val();
-        let comments = $('input#comments').val();
+        let comments = $('textarea#comments').val();
 
         if (name && email &&  comments) {
             alert ("Hello " + name + " ,we have received your message. Thank you for reaching out to us.");
         } else if(name && email){
             alert('Please leave a comment.')
+            return false;
             
         }else if(name && comments){
             alert('Please enter your email.')
+            return false;
+        }else if(comments && email){
+            alert('Please enter your name.')
+            return false;
         }else{
             alert('Please enter your name, email and a comment')
+            return false;
         }
+        
+
     });
+
+
 });
 
 
