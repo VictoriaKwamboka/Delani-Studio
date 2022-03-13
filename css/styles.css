@@ -16,7 +16,7 @@ img#logo{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#intro-heading, #service-heading{
+#intro-heading, #about-heading, #service-heading{
        padding: 20px;
        font-weight: 400;
 }
