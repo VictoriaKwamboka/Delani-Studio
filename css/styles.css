@@ -47,4 +47,7 @@ img#logo{
 #service-content{
     text-align: center;
     color: white;
+    padding: 100px;
+    margin: 70px;
+    border:40px;
 }
