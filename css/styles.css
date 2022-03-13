@@ -16,9 +16,10 @@ img#logo{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#intro-heading, #about-heading, #service-heading{
+#intro-heading, #about-heading, #service-heading, #portfolio-heading{
        padding: 20px;
        font-weight: 400;
+       text-align: center;
 }
 #mouse{
     margin-top: 10%;
@@ -57,4 +58,27 @@ img#logo{
 }
 #wwd-design, #wwd-development, #wwd-management{
     display: none;
+}
+#portfolio{
+    display: flex;
+    margin-right: 12%;
+    margin-left: 12%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+#textHover1, #textHover2, #textHover3, #textHover4, #textHover5, #textHover6, #textHover7, #textHover8{
+    display: none;
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    border: 3px solid white;
+    left: 50%;
+    top: 50%;
+    background-color: grey;
+    transform: translate(-50%,-50%);
 }
