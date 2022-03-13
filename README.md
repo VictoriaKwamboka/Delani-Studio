@@ -29,7 +29,7 @@ This project is open source and your contribution is highly welcome by following
   <li> Clone or fork this repository.
   <li> Add your code or comment on the existing code.
   <li> Open an issue to help me understand what changes you'd like to make.
-  <li> Create a pull request.
+  <li> Create a pull request
  </ul>
  
 ## Behavior Driven Development
