@@ -40,3 +40,11 @@ img#logo{
     text-align: center;
     padding: padding 10%;
 }
+#service{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+}
+
+#service-content{
+    text-align: center;
+    color: white;
+}
