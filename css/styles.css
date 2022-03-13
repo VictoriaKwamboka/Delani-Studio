@@ -1,8 +1,37 @@
+*{ font-family: 'Permanent Marker', cursive;}
+    
+
 .intro{
     background-image: url(../assets/backgrounds/h_img.jpg);
     color: white;
     background-position: center center;
     background-size: cover;
     text-align: center;
+    background-attachment: fixed;
     
+}
+img#logo{
+    margin-bottom: 8px;
+    padding-top: 15% ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#intro-heading{
+       padding-bottom: 20px;
+}
+#mouse{
+    margin-top: 10%;
+    margin-bottom: 25px;
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-50px);
+    }
+    60%{
+        transform: translateY(-40px);
+    }
 }
