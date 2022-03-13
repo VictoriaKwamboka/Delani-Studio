@@ -93,6 +93,7 @@ img#logo{
 }
 .contactUs{
     background-image: url(/assets/backgrounds/c_image.jpg);
+    
 }
 .form-control {
     color: white;
@@ -104,4 +105,11 @@ img#logo{
 #button{
     position: relative;
     text-align: center;
+}
+
+.contactUs-content{
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    border: 50px;
 }

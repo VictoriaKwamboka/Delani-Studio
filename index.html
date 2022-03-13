@@ -147,21 +147,23 @@
     <!--Contact Us Section -->
     <div class="container contactUs">
         <h3 id="contact-heading">CONTACT US</h3>
-        <form id="form-submit" target= "_blank" action="https://gmail.us14.list-manage.com/subscribe/post?u=97bfcbff417492fd5265343e9&amp;id=79b35713aa" method="post" onsubmit="return doit()">
-            <div class="row">
-                <div class="col">
-                    <input class= "form-control" name = "NAME" type="text" id="name" placeholder="Please enter your name...">
+        <div class="contactUs-content">
+            <form id="form-submit" target= "_blank" action="https://gmail.us14.list-manage.com/subscribe/post?u=97bfcbff417492fd5265343e9&amp;id=79b35713aa" method="post" onsubmit="return doit()">
+                <div class="row">
+                    <div class="col">
+                        <input class= "form-control" name = "NAME" type="text" id="name" placeholder="Please enter your name...">
+                    </div>
+                    <div class="col">
+                        <input class = "form-control" id="email" name = "EMAIL" type="text" placeholder="Enter your email...">
+                    </div><br>
+                    <div class="form-group">
+                        <textarea class="form-control" name="COMMENTS" id="comments" cols="30" rows="10"></textarea>
+                    </div><br>
                 </div>
-                <div class="col">
-                    <input class = "form-control" id="email" name = "EMAIL" type="text" placeholder="Enter your email...">
-                </div><br>
-                <div class="form-group">
-                    <textarea class="form-control" name="COMMENTS" id="comments" cols="30" rows="10"></textarea>
-                </div><br>
-            </div>
-            <button type="submit" id= "button" class="btn btn-secondary">Submit</button>
-
-        </form>
+                <button type="submit" id= "button" class="btn btn-secondary">Submit</button>
+    
+            </form>
+        </div>
     </div>
 
 
