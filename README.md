@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://twitter.com/codingvictoria" target="blank"><img src="https://img.shields.io/twitter/follow/codingvictoria?logo=twitter&style=for-the-badge" alt="codingvictoria" /></a> </p>
 
-- 🔭 I’m currently working on this [Bootstrap project](https://github.com/VictoriaKwamboka/bootstrap-practice), [Akan Name Generator](https://github.com/VictoriaKwamboka/Akan-Name-Generator)
+- 🔭 I’m currently working on this [Bootstrap project](https://github.com/VictoriaKwamboka/bootstrap-practice), [Akan Name Generator](https://github.com/VictoriaKwamboka/Akan-Names-Generator)
 
 - 🌱 I’m currently learning **Javascript, CSS, HTML, jQUERY and Bootstrap**
 
