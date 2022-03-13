@@ -17,7 +17,10 @@
 
 ## Delani Studio
 This web application is a dummy of the Delani Studio Website. It mimicks the behavior of the original website.
+ 
+## Author
 
+Victoria Kwamboka
 
 ## Set up Instructions and Contribution
 This project is open source and your contribution is highly welcome by following these steps:
@@ -34,6 +37,9 @@ This project is open source and your contribution is highly welcome by following
 
 <li>The user enters their name, email and a comment.
 <li>Upon submission, they subscribe to my email list using mailchimp.
+
+
+
 
 ## Copyright and Licensing
 [MIT](https://choosealicense.com/licenses/mit/)
