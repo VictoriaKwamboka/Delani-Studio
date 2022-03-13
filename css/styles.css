@@ -35,3 +35,7 @@ img#logo{
         transform: translateY(-40px);
     }
 }
+#about-us{
+    text-align: center;
+    padding: padding 10%;
+}
