@@ -1,4 +1,4 @@
-*{ font-family: 'Permanent Marker', cursive;}
+*{ font-family: 'Roboto', sans-serif;}
     
 
 .intro{
@@ -16,8 +16,9 @@ img#logo{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#intro-heading{
-       padding-bottom: 20px;
+#intro-heading, #service-heading{
+       padding: 20px;
+       font-weight: 400;
 }
 #mouse{
     margin-top: 10%;
