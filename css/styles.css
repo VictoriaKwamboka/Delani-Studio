@@ -51,6 +51,10 @@ img#logo{
     margin: 70px;
     border:40px;
 }
-#what-we-do{
+#what-we-do, #wwd-heading{
     text-align: center;
+    padding-bottom: 30px;
+}
+#wwd-design, #wwd-development, #wwd-management{
+    display: none;
 }
